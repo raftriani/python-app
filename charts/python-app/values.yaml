@@ -1,8 +1,8 @@
 replicaCount: 1
 image:
-  repository: python-app
-  pullPolicy: Never
-  tag: local
+  repository: raftriani/python-app
+  pullPolicy: Always
+  tag: latest
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
