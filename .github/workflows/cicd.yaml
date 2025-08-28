@@ -4,8 +4,13 @@ on:
   push:
     paths:
       - src/**
+      - charts/**
+      - Dockerfile
+      - requirements.txt
     branches:
       - main
+  # Permitir execução manual
+  workflow_dispatch:
 
 jobs:
   ci:
