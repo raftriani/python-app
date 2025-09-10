@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: raftriani/python-app
   pullPolicy: Always
-  tag: 1e9ad9
+  tag: 75d434
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
